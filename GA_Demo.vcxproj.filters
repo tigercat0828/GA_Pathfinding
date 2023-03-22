@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\glad.c" />
+    <ClCompile Include="source\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui\imgui_impl_opengl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui\imgui_impl_sdl.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Painter.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Shader.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Sprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Window.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Agent.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Manager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Obstacle.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utility.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui\imgui_impl_opengl3.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui\imgui_impl_sdl.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Painter.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Shader.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Sprite.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Xavier.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Constant.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Window.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Agent.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Manager.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Obstacle.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utility.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\Canvas2DRenderer.fs.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\Canvas2DRenderer.vs.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\RenderTest.fs.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\RenderTest.vs.glsl">
+      <Filter>shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{8ed6eb32-c342-401a-988a-e4fed6698633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{1bd44cb0-83df-419c-bacb-d8d0e6c0fac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{7572d6d6-841f-4ebe-b554-7c6b48c0e82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{eb7d12aa-9a9c-46e0-820d-c8e5e2101593}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

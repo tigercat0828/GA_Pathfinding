@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{f50cd280-33b2-48b3-8b4e-d77a61ec6899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{bd6776ed-58d8-476e-af0a-87bee1691642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{b62a5a0f-2fe2-4806-8488-8782436e5147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third-party">
+      <UniqueIdentifier>{3523cff5-bf83-475f-8838-c8d551727bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third-party\imgui">
+      <UniqueIdentifier>{ce08598b-85e2-4692-bb84-57753f65fffb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Window.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Shader.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Sprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui\imgui.cpp">
+      <Filter>third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui\imgui_demo.cpp">
+      <Filter>third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui\imgui_draw.cpp">
+      <Filter>third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui\imgui_impl_opengl3.cpp">
+      <Filter>third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui\imgui_impl_sdl.cpp">
+      <Filter>third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui\imgui_widgets.cpp">
+      <Filter>third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glad.c">
+      <Filter>third-party</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Painter.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Window.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Shader.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Sprite.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui\imconfig.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui\imgui.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui\imgui_impl_opengl3.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui\imgui_impl_sdl.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui\imgui_internal.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui\imstb_rectpack.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui\imstb_textedit.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui\imstb_truetype.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Painter.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Constant.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Xavier.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\Canvas2DRenderer.fs.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\Canvas2DRenderer.vs.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\RenderTest.fs.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\RenderTest.vs.glsl">
+      <Filter>shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
